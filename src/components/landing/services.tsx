@@ -6,20 +6,23 @@ import { Button } from '../ui/button'
 
 export default function Services() {
     return (
-        <section id="services" className="bg-slate-900 py-16 sm:py-24" aria-labelledby="services-heading">
+        // Changed background to light and adjusted text colors outside cards only
+        <section id="services" className="bg-white py-16 sm:py-24" aria-labelledby="services-heading">
             <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
-                    <Badge className="mb-4 bg-[#6941C6]/20 text-[#A78BFA] border-[#6941C6]/30">Our Services</Badge>
-                    <h2 id="services-heading" className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                    <Badge className="mb-4 bg-[#6941C6]/20 text-[#6941C6] border-[#6941C6]/30">
+                        Our Services
+                    </Badge>
+                    <h2 id="services-heading" className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
                         Professional IT Solutions
                     </h2>
-                    <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-300">
+                    <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-700">
                         We offer a variety of IT services to meet your business needs.
                     </p>
                 </div>
 
                 <div className="mt-16 grid gap-8 md:grid-cols-2">
-                    {/* IT Consulting */}
+                    {/* Cards unchanged, still dark styled */}
                     <Card className="group overflow-hidden border border-slate-600 bg-gradient-to-br from-slate-800 to-slate-900 text-white shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:border-[#6941C6]/50">
                         <CardHeader className="pb-4">
                             <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-[#6941C6]/20 backdrop-blur-sm border border-[#6941C6]/30">
@@ -54,6 +57,7 @@ export default function Services() {
                         </CardContent>
                     </Card>
 
+                    {/* Repeat same dark card classes for other cards */}
                     {/* Cloud Solutions */}
                     <Card className="group overflow-hidden border border-slate-600 bg-gradient-to-br from-slate-800 to-slate-900 text-white shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:border-[#6941C6]/50">
                         <CardHeader className="pb-4">
