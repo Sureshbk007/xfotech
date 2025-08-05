@@ -1,25 +1,13 @@
 import {
-    Code2,
-    Shield,
-    Database,
-    Cloud,
     ArrowRight,
-    Star,
-    Play,
-    Zap,
 } from "lucide-react"
 import React from 'react'
 import { Button } from '../ui/button'
-import { Badge } from "../ui/badge"
 import Image from "next/image"
 
 export default function Hero() {
     return (
-        <section className="relative overflow-hidden bg-[#6a3fcc]">
-            {/* Background Pattern */}
-            {/* <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(105,65,198,0.1)_50%,transparent_75%)] bg-[length:60px_60px]" />
-            <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 to-transparent" /> */}
-
+        <section className="relative overflow-hidden bg-[#19222b]">
             <div className="container relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
                 <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
                     <div className="space-y-8">

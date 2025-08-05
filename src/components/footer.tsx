@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <footer className=" text-white border-t  bg-[#6a3fcc]" role="contentinfo">
+        <footer className=" text-white border-t  bg-[#19222b]" role="contentinfo">
             <div className="container mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
                 <div className="grid gap-8 md:grid-cols-4">
                     <div className="space-y-4">

@@ -53,7 +53,7 @@ export default function Courses() {
                     ].map((course, idx) => (
                         <Card
                             key={idx}
-                            className="group relative overflow-hidden bg-[#6a3fcc] shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:border-[#6941C6]/50 py-8"
+                            className="group relative overflow-hidden bg-[#19222b] shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:border-[#6941C6]/50 py-8"
                         >
                             <div className="absolute inset-0 bg-gradient-to-br from-[#6941C6]/10 via-transparent to-[#8B5CF6]/10 opacity-0 transition-opacity group-hover:opacity-100" />
                             <div className="absolute top-0 left-0 h-1 w-0 bg-gradient-to-r from-[#6941C6] to-[#8B5CF6] transition-all duration-500 group-hover:w-full" />
