@@ -76,7 +76,7 @@ export default function Header() {
                     </SheetTrigger>
 
                     {/* Sheet Content for Mobile Nav */}
-                    <SheetContent className="p-0" side="right">
+                    <SheetContent className="p-0 w-fit pr-5" side="right">
                         <SheetHeader className="border-b px-5 py-3">
                             <SheetTitle>
                                 <div className="flex items-center space-x-2">
@@ -102,11 +102,11 @@ export default function Header() {
                                             : pathname.startsWith(href);
 
                                     return (
-                                        <li key={id}>
+                                        <li key={id} >
                                             <Link
                                                 className={`block rounded-lg px-4 py-2 font-medium text-base transition-colors duration-200 ${isActive
                                                     ? 'bg-[#6941C6] text-white'
-                                                    : 'text-gray-800 hover:bg-gray-100 hover:text-brand-secondary'
+                                                    : 'text-gray-800 hover:bg-gray-100'
                                                     }`}
                                                 href={href}
                                                 onClick={() => setMobileSidebarMenuOpen(false)}
