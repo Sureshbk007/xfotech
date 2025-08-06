@@ -27,7 +27,7 @@ export default function Hero() {
                             </p>
                         </div>
 
-                        <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
+                        <div>
                             <Button
                                 size="lg"
                                 className="group bg-blue-500 px-8 py-3 text-base font-semibold text-white shadow-lg transition-all hover:bg-[#5B2FB8] hover:shadow-xl focus:ring-2 focus:ring-[#6941C6] focus:ring-offset-2 focus:ring-offset-slate-950"
